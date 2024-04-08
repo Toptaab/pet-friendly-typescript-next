@@ -4,8 +4,8 @@ import { useState } from "react";
 export default function Button() {
   const [count, setCount] = useState<number>(0);
 
-  const countClick = () => {
-    setCount((e) => e + 1);
+  const countClick = (): void => {
+    setCount((current) => current + 1);
   };
 
   return (
