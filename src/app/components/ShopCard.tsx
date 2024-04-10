@@ -1,14 +1,13 @@
 export default function ShopCard() {
     return (
-        <div className="h-[26rem] border rounded-xl border-black w-[25vw]  mx-auto ">
+        <div className=" border rounded-xl border-black mx-auto h-[26rem] ">
             <img
                 className="w-full h-56  border-b-2 object-cover rounded-t-xl"
                 src="https://fastly.picsum.photos/id/33/5000/3333.jpg?hmac=h5NVRcUXmsWm612YQOroHSA5n9R7gxZgoP60LHBPHtw"
-                alt=""
+                alt="CardImage"
             />
-            {/* <img className="w-full h-56  border-b-2"></img> */}
             <div className="flex flex-col px-6 py-8 gap-4">
-                <span className="font-semibold text-lg">
+                <span className="font-semibold lg:text-lg sm:text-sm">
                     Chocolate cheesecake
                 </span>
                 <span className="text-xl font-bold">Location</span>
