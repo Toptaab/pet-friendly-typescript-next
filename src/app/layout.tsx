@@ -19,11 +19,6 @@ export default function RootLayout({
   return (
     <StoreProvider>
       <html lang="en">
-        <script
-          src="https://kit.fontawesome.com/4036835aa5.js"
-          crossOrigin="anonymous"
-        ></script>
-
         <body className={inter.className}>
           <Navbar />
           {children}

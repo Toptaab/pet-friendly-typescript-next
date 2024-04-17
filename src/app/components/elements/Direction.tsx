@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { Bars3Icon } from "@heroicons/react/24/solid";
 
 function Direction() {
   const [openModal, setOpenModel] = useState(false);
@@ -14,10 +15,10 @@ function Direction() {
 
       {/* ---------------------------------- mobile ---------------------------------- */}
       <div className="flex md:hidden justify-end flex-1">
-        <i
-          className="fa-solid fa-bars"
+        <Bars3Icon
+          className="h-6 w-6 text-black"
           onClick={() => setOpenModel(!openModal)}
-        ></i>
+        />
       </div>
 
       {/* ----------------------------------mobile modal  ----------------------------------- */}
